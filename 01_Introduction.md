@@ -62,9 +62,35 @@ graph
 
 ## 1. Supervised Machine Learning
 
+A machine learning technique in which a model is trained using labeled data, where each input is associated with a known output, so that the model can learn to predict correct outputs for new, unseen inputs.
+
+<img src="https://github.com/user-attachments/assets/20664abf-ae64-490b-8817-f5b9f0a9dabd"  width="600" height="600">
+
+## Types of Data
+
+```mermaid
+graph 
+    A[Data]
+   
+    A --> B[Numerical]
+    A --> C[Categorical]
+
+    B --> D[Age, Weight, Cgpa, Iq]
+    C --> E[Gender, Nation, Dog, Cat]   
+```
 
 
+## Types of Supervised Machine Learning
 
+```mermaid
+graph 
+    B[Supervised Learning]
+   
+    B --> B1[Classification]
+    B --> B2[Regression]
+```
+
+### 1. Classification 
 
 
 
